@@ -20,6 +20,7 @@ export function renderItems(items, tableBody) {
         `;
         tableBody.appendChild(row);
     });
+    //awo
 }
 
 export function resetForm(form, submitBtn) {
@@ -30,5 +31,9 @@ export function resetForm(form, submitBtn) {
 export function fillForm(form, item, submitBtn) {
     form.querySelector("#name").value = item.name;
     form.querySelector("#description").value = item.description || "";
+    form.querySelector("#color").value = item.name;
+    form.querySelector("#name").value = item.name;
+    form.querySelector("#name").value = item.name;
+    form.querySelector("#name").value = item.name;
     if (submitBtn) submitBtn.textContent = "Guardar cambios";
 }
