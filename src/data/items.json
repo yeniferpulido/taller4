@@ -17,7 +17,7 @@
     "image":"https://images.pexels.com/photos/3888594/pexels-photo-3888594.jpeg",
     "color": "Blanca",
     "price": 70000,
-    "size": "Mediana",
+    "size": "Pequeña",
     "origin": "Colombia",
     "stock": 10
   },
@@ -39,7 +39,7 @@
     "image":"https://images.pexels.com/photos/56905/pexels-photo-56905.jpeg",
     "color": "Blanca",
     "price": 35000,
-    "size": "Mediana",
+    "size": "Pequeña",
     "origin": "Colombia",
     "stock": 40
   },
@@ -61,7 +61,7 @@
     "image":"https://images.pexels.com/photos/20843052/pexels-photo-20843052.jpeg",
     "color": "Amarillo",
     "price": 50000,
-    "size": "Mediana",
+    "size": "Grande",
     "origin": "Colombia",
     "stock": 53
   },
@@ -83,7 +83,7 @@
     "image":"https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg",
     "color": "Rosado",
     "price": 200000,
-    "size": "Mediana",
+    "size": "Pequeña",
     "origin": "Japón",
     "stock": 20
   },
@@ -94,7 +94,7 @@
     "image":"https://images.pexels.com/photos/18702109/pexels-photo-18702109.jpeg",
     "color": "Salmón",
     "price": 30000,
-    "size": "Mediana",
+    "size": "Grande",
     "origin": "Japón",
     "stock": 36
   },
@@ -105,7 +105,7 @@
     "image":"https://images.pexels.com/photos/35646/pexels-photo.jpg",
     "color": "Blanca",
     "price": 20000,
-    "size": "Mediana",
+    "size": "Grande",
     "origin": "Mexico",
     "stock": 29
   }

@@ -5,18 +5,31 @@
 const API_URL = "/api/items";
 
 // TODO: Seleccionar el contenedor donde se mostrarán los items
+const catalogContainer = document.getElementById("catalogContainer");
 // const catalogContainer = document.getElementById("...");
 
 // Función principal para cargar los items desde la API
 async function loadCatalog() {
     try {
         // 1. Hacer fetch a la API (GET /api/items)
+        const response = await fetch(API_URL);
+        if (!response.ok) {
+            throw new Error("No se pudieron obtener los items");
+        }
         // 2. Parsear la respuesta a JSON
+        const items = await response.json();
+        
         // 3. Limpiar el contenedor del catálogo
+        catalogContainer.innerHTML = "";
+
         // 4. Iterar sobre cada item y llamar a renderItem()
+         items.forEach(item => {
+            renderItem(item);
+        });
     } catch (err) {
         console.error("Error cargando catálogo:", err);
         // TODO: Mostrar mensaje de error en la UI
+         catalogContainer.innerHTML = "<p>Error cargando los items</p>";
     }
 }
 
@@ -24,8 +37,24 @@ async function loadCatalog() {
 function renderItem(item) {
     // TODO: Crear un elemento HTML (ej: div o card)
     // TODO: Asignar los datos del item (name, description, etc.)
+    card.innerHTML = `
+        <h2>${item.name}</h2>
+        <img src="${item.image}" alt="${item.name}">
+        <p><strong>ID:</strong> ${item.id}</p>
+        <p>${item.description}</p>
+        <p><strong>Precio:</strong> $${item.price}</p>
+        <p>${item.size}</p>
+        <p>${item.origen}</p>
+    `;
+    
     // TODO: Insertar el elemento en el contenedor
+    catalogContainer.appendChild(card);
 }
 
 // Inicializar el catálogo cuando cargue la página
 loadCatalog();
+
+
+
+
+

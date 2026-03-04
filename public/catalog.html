@@ -18,7 +18,30 @@
 
     <div id="catalogContainer" class="catalog-grid">
         <!-- Aquí se van a renderizar las tarjetas con los items -->
+        <section class="card">
+            <h1 id="flor-name"></h1>
+            <img id="flor-img" src="" alt="">
+        </section>
     </div>
+
+     <div id="flor-modal" class="modal hidden">
+            <div class="modal-content">
+                <!--<span id="close-modal">&times;</span>-->
+                <h2 id="modal-name"></h2>
+                <img id="modal-img" src="" alt="flor grande">
+                <p id="modal-id" class="flor-id"></p>
+
+                <div class="modal-info">
+                    <p><strong>Precio: $</strong> <span id="modal-price"></span></p>
+                    <p><strong>Color:</strong> <span id="modal-color"></span></p>
+                    <p><strong>Tamaño:</strong> <span id="modal-size"></span></p>
+                    <p><strong>Origen:</strong> <span id="modal-origen"></span></p>
+                    <p><strong>Descripción:</strong> <span id="modal-description"></span></p>
+                    
+                
+                </div>
+
+                <div id="modal-stats" class="modal-stats"></div>
 
     <script type="module" src="./js/catalog.js"></script>
 </body>
