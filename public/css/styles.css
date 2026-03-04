@@ -1,12 +1,13 @@
 /* index.html */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Playfair Display", serif;
     margin: 20px;
     background: #f9f9f9;
 }
 
 h1 {
     color: #333;
+    font-family:"Chelsea Market", cursive;
 }
 
 form {
@@ -20,20 +21,20 @@ input {
 
 button {
     padding: 8px 12px;
-    background: #007acc;
+    background: #ca3792;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background: #005fa3;
+    background: #ac134e;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
+    background: rgb(255, 232, 232);
 }
 
 th, td {
@@ -63,4 +64,9 @@ th, td {
 
 .navbar a:hover {
     text-decoration: underline;
+}
+
+img{
+    width: 70px;
+    height: 70px;
 }
