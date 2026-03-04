@@ -4,7 +4,7 @@
     "description": "Flor descripcion 1",
     "id": 1,
     "image":"https://images.pexels.com/photos/17557184/pexels-photo-17557184.jpeg",
-    "color": "#FF0000",
+    "color": "Rosado",
     "price": 30000,
     "size": "Mediana",
     "origin": "Colombia",

@@ -6,6 +6,13 @@ export function renderItems(items, tableBody) {
             <td>${item.id}</td>
             <td>${item.name}</td>
             <td>${item.description || ""}</td>
+            <td><img src="${item.image}" alt=""></td>
+            <td>${item.color}</td>
+            <td>${item.price}</td>
+            <td>${item.size}</td>
+            <td>${item.origin}</td>
+            <td>${item.stock}</td>
+
             <td>
                 <button class="btn-edit" data-id="${item.id}">Editar</button>
                 <button class="btn-delete" data-id="${item.id}">Eliminar</button>
