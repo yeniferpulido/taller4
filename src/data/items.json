@@ -5,43 +5,43 @@
     "id": 1,
     "image":"https://images.pexels.com/photos/17557184/pexels-photo-17557184.jpeg",
     "color": "Rosado",
-    "price": 30000,
+    "price": 10000,
     "size": "Mediana",
-    "origin": "japon",
-    "stock": 1
+    "origin": "Colombia",
+    "stock": 30
   },
   {
     "name": "Orquidea",
     "description": "Flor descripcion 2",
     "id": 2,
     "image":"https://images.pexels.com/photos/3888594/pexels-photo-3888594.jpeg",
-    "color": "Rosado",
-    "price": 12000,
+    "color": "Blanca",
+    "price": 70000,
     "size": "Mediana",
     "origin": "Colombia",
-    "stock": 1
+    "stock": 10
   },
   {
     "name": "Flor de loto",
     "description": "Flor descripcion 3",
     "id": 3,
     "image":"https://images.pexels.com/photos/1179863/pexels-photo-1179863.jpeg ",
-    "color": "Rosado",
-    "price": 12000,
+    "color": "Blanca",
+    "price": 70000,
     "size": "Mediana",
-    "origin": "Colombia",
-    "stock": 1
+    "origin": "China",
+    "stock": 15
   },
   {
     "name": "Lirio",
     "description": "Flor descripcion 4",
     "id": 4,
     "image":"https://images.pexels.com/photos/56905/pexels-photo-56905.jpeg ",
-    "color": "Rosado",
-    "price": 12000,
+    "color": "Blanca",
+    "price": 35000,
     "size": "Mediana",
     "origin": "Colombia",
-    "stock": 1
+    "stock": 40
   },
   {
     "name": "Rosa",
@@ -49,32 +49,32 @@
     "id": 5,
     "image":"https://images.pexels.com/photos/12401969/pexels-photo-12401969.jpeg ",
    "color": "Rosado",
-    "price": 12000,
+    "price": 35000,
     "size": "Mediana",
-    "origin": "Colombia",
-    "stock": 1
+    "origin": "Kenia",
+    "stock": 70
   },
   {
     "name": "Girasol",
     "description": "Flor descripcion 6",
     "id": 6,
     "image":"https://images.pexels.com/photos/20843052/pexels-photo-20843052.jpeg ",
-    "color": "Rosado",
-    "price": 12000,
+    "color": "Amarillo",
+    "price": 50000,
     "size": "Mediana",
     "origin": "Colombia",
-    "stock": 1
+    "stock": 53
   },
   {
     "name": "Tulipan",
     "description": "Flor descripcion 7",
     "id": 7,
     "image":"https://images.pexels.com/photos/4726109/pexels-photo-4726109.jpeg",
-    "color": "Rosado",
-    "price": 12000,
+    "color": "Salmón",
+    "price": 180000,
     "size": "Mediana",
-    "origin": "Colombia",
-    "stock": 1
+    "origin": "Paises bajos",
+    "stock": 20
   },
   {
     "name": "Flor de cerezo",
@@ -82,31 +82,31 @@
     "id": 8,
     "image":"https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg",
     "color": "Rosado",
-    "price": 12000,
+    "price": 200000,
     "size": "Mediana",
-    "origin": "Colombia",
-    "stock": 1
+    "origin": "Japón",
+    "stock": 20
   },
   {
     "name": "Camelia",
     "description": "Flor descripcion 9",
     "id": 9,
     "image":"https://images.pexels.com/photos/18702109/pexels-photo-18702109.jpeg ",
-    "color": "Rosado",
-    "price": 12000,
+    "color": "Salmón",
+    "price": 30000,
     "size": "Mediana",
-    "origin": "Colombia",
-    "stock": 1
+    "origin": "Japón",
+    "stock": 36
   },
   {
     "name": "Flor de dalia",
     "description": "Flor descripcion 10",
     "id": 10,
     "image":"https://images.pexels.com/photos/35646/pexels-photo.jpg",
-    "color": "petro",
-    "price": 12000,
+    "color": "Blanca",
+    "price": 20000,
     "size": "Mediana",
-    "origin": "Colombia",
-    "stock": 1
+    "origin": "Mexico",
+    "stock": 29
   }
 ]
