@@ -3,100 +3,110 @@
     "name": "Clavel",
     "description": "Flor descripcion 1",
     "id": 1,
-    "image":"",
+    "image":"https://images.pexels.com/photos/17557184/pexels-photo-17557184.jpeg",
     "color": "#FF0000",
     "price": 30000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Orquidea",
     "description": "Flor descripcion 2",
     "id": 2,
-    "image":"",
+    "image":"https://images.pexels.com/photos/3888594/pexels-photo-3888594.jpeg",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Flor de loto",
     "description": "Flor descripcion 3",
     "id": 3,
-    "image":"",
+    "image":"https://images.pexels.com/photos/1179863/pexels-photo-1179863.jpeg ",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Lirio",
     "description": "Flor descripcion 4",
     "id": 4,
-    "image":"",
+    "image":"https://images.pexels.com/photos/56905/pexels-photo-56905.jpeg ",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Rosa",
     "description": "Flor descripcion 5",
     "id": 5,
-    "image":"",
+    "image":"https://images.pexels.com/photos/12401969/pexels-photo-12401969.jpeg ",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Girasol",
     "description": "Flor descripcion 6",
     "id": 6,
-    "image":"",
+    "image":"https://images.pexels.com/photos/20843052/pexels-photo-20843052.jpeg ",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Tulipan",
     "description": "Flor descripcion 7",
     "id": 7,
-    "image":"",
+    "image":"https://images.pexels.com/photos/4726109/pexels-photo-4726109.jpeg",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Flor de cerezo",
     "description": "Flor descripcion 8",
     "id": 8,
-    "image":"",
+    "image":"https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Camelia",
     "description": "Flor descripcion 9",
     "id": 9,
-    "image":"",
+    "image":"https://images.pexels.com/photos/18702109/pexels-photo-18702109.jpeg ",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   },
   {
     "name": "Flor de dalia",
     "description": "Flor descripcion 10",
     "id": 10,
-    "image":"",
+    "image":"https://images.pexels.com/photos/35646/pexels-photo.jpg",
     "color": "#FF0000",
     "price": 12000,
     "size": "Mediana",
-    "origin": "Colombia"
+    "origin": "Colombia",
+    "stock": 1
   }
 ]
