@@ -63,7 +63,7 @@
     "price": 50000,
     "size": "Grande",
     "origin": "Colombia",
-    "stock": 53
+    "stock": 57
   },
   {
     "name": "Tulipan",
@@ -83,7 +83,7 @@
     "image": "https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg",
     "color": "Rosado",
     "price": 200000,
-    "size": "Pequeña",
+    "size": "pequeña",
     "origin": "Japón",
     "stock": 20
   },
@@ -108,27 +108,5 @@
     "size": "Grande",
     "origin": "Mexico",
     "stock": 29
-  },
-  {
-    "name": "lol",
-    "description": "lol omg en plan holy shit ",
-    "image": "https://images.pexels.com/photos/1212487/pexels-photo-1212487.jpeg",
-    "color": "amarillo lo platano",
-    "price": "5",
-    "size": "pequeña",
-    "origin": "Barrancabermeja",
-    "stock": "1",
-    "id": 1772672582321
-  },
-  {
-    "name": "pene",
-    "description": "pito",
-    "image": "https://images.pexels.com/photos/1212487/pexels-photo-1212487.jpeg",
-    "color": "lol",
-    "price": "0",
-    "size": "0",
-    "origin": "pito",
-    "stock": "0",
-    "id": 1772672637577
   }
 ]

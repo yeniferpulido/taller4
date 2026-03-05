@@ -6,7 +6,7 @@
     <title>Gestión</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <nav class="navbar">
@@ -22,31 +22,38 @@
 
     <form id="itemForm">
         <input type="text" id="name" placeholder="Nombre del item" required>
-        <input type="text" id="description" placeholder="Descripción">
-        <input type="text" id="image" placeholder="Imagen">
-        <input type="text" id="color" placeholder="Color">
-        <input type="number" id="price" placeholder="Precio">
-        <input type="text" id="size" placeholder="Tamaño">
-        <input type="text" id="origin" placeholder="Origen">
-        <input type="number" id="stock" placeholder="Stock">
+        <input type="text" id="description" placeholder="Descripción" required>
+        <input type="text" id="image" placeholder="Imagen (URL)" required>
+        <input type="text" id="color" placeholder="Color" required>
+        <input type="number" id="price" placeholder="Precio" required min="0.01" step="0.01">
+
+        <!-- Select para tamaño -->
+        <select id="size" required>
+            <option value="">Selecciona un tamaño</option>
+            <option value="pequeña">Pequeña</option>
+            <option value="mediana">Mediana</option>
+            <option value="grande">Grande</option>
+        </select>
+
+        <input type="text" id="origin" placeholder="Origen" required>
+        <input type="number" id="stock" placeholder="Stock" required min="0" step="1">
 
         <button type="submit" id="submitBtn">Agregar</button>
-        
     </form>
 
     <table>
         <thead>
             <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Descripción</th>
-            <th>Imagen</th>
-            <th>Color</th>
-            <th>Precio</th>
-            <th>Tamaño</th>
-            <th>Origen</th>
-            <th>Cantidad</th>
-            <th>Acciones</th>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+                <th>Color</th>
+                <th>Precio</th>
+                <th>Tamaño</th>
+                <th>Origen</th>
+                <th>Cantidad</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody id="itemsTable"></tbody>

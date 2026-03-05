@@ -70,3 +70,13 @@ img{
     width: 70px;
     height: 70px;
 }
+
+/* Estilo para el select del tamaño */
+select#size {
+    padding: 8px;       
+    margin-right: 5px;  
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+}
