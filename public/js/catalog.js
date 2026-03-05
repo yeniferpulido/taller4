@@ -1,3 +1,5 @@
+import flor from "./flor.js";
+
 // Script base para la vista de catálogo
 // Aquí deben consumir la API de items y mostrarlos en la página
 
@@ -35,19 +37,22 @@ async function loadCatalog() {
 
 // Función para renderizar un item en el catálogo
 function renderItem(item) {
-    // TODO: Crear un elemento HTML (ej: div o card)
-    // TODO: Asignar los datos del item (name, description, etc.)
+    // Crear un elemento HTML (card)
+    const card = document.createElement("div");
+    card.classList.add("card");
+
+    // Asignar los datos del item
     card.innerHTML = `
         <h2>${item.name}</h2>
         <img src="${item.image}" alt="${item.name}">
         <p><strong>ID:</strong> ${item.id}</p>
         <p>${item.description}</p>
         <p><strong>Precio:</strong> $${item.price}</p>
-        <p>${item.size}</p>
-        <p>${item.origen}</p>
+        <p><strong>Tamaño:</strong> ${item.size}</p>
+        <p><strong>Origen:</strong> ${item.origen}</p>
     `;
     
-    // TODO: Insertar el elemento en el contenedor
+    // Insertar el elemento en el contenedor
     catalogContainer.appendChild(card);
 }
 
