@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar</title>
+    <link rel="stylesheet" href="./css/buscar.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Gestión</a></li>
+            <li><a href="catalog.html">Catálogo</a></li>
+            <li><a href="buscar.html">Buscar</a></li>
+        </ul>
+    </nav>
+
+    <body>
+    <h1>Buscar Flores</h1>
+
+    <div class="search-container">
+
+        <label>Categoría:</label>
+        <select id="categorySelect">
+            <option value="">Seleccione una categoría</option>
+            <option value="color">Color</option>
+            <option value="price">Precio</option>
+            <option value="size">Tamaño</option>
+            <option value="origin">Origen</option>
+        </select>
+
+        <label>Indique qué busca:</label>
+        <select id="valueSelect" disabled>
+            <option value="">Primero seleccione una categoría</option>
+        </select>
+
+    </div>
+
+    <div id="resultsContainer" class="catalog-grid"></div>
+
+    <div id="flor-modal" class="modal hidden">
+    <div class="modal-content">
+        <h2 id="modal-name"></h2>
+        <img id="modal-img" src="" alt="flor grande">
+        <p id="modal-id"></p>
+
+        <div class="modal-info">
+            <p><strong>Precio:</strong> <span id="modal-price"></span></p>
+            <p><strong>Color:</strong> <span id="modal-color"></span></p>
+            <p><strong>Tamaño:</strong> <span id="modal-size"></span></p>
+            <p><strong>Origen:</strong> <span id="modal-origen"></span></p>
+            <p><strong>Descripción:</strong> <span id="modal-description"></span></p>
+        </div>
+    </div>
+    </div>
+
+    <script type="module" src="./js/buscar.js"></script>
+</html>

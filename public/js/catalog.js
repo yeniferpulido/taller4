@@ -1,4 +1,4 @@
-import flor from "./flor.js";
+import Flor from "./ui/flor.js";
 
 // Script base para la vista de catálogo
 // Aquí deben consumir la API de items y mostrarlos en la página
@@ -8,7 +8,7 @@ const API_URL = "/api/items";
 
 // TODO: Seleccionar el contenedor donde se mostrarán los items
 const catalogContainer = document.getElementById("catalogContainer");
-// const catalogContainer = document.getElementById("...");
+const modal = document.getElementById("flor-modal");
 
 // Función principal para cargar los items desde la API
 async function loadCatalog() {
@@ -37,24 +37,59 @@ async function loadCatalog() {
 
 // Función para renderizar un item en el catálogo
 function renderItem(item) {
-    // Crear un elemento HTML (card)
+
+    // Crear objeto Flor (modelo)
+    const flor = new Flor(
+        item.id,
+        item.name,
+        item.price,
+        item.color,
+        item.size,
+        item.origin,   
+        item.description
+    );
+
     const card = document.createElement("div");
     card.classList.add("card");
 
-    // Asignar los datos del item
+    // SOLO lo básico en la tarjeta
     card.innerHTML = `
-        <h2>${item.name}</h2>
-        <img src="${item.image}" alt="${item.name}">
-        <p><strong>ID:</strong> ${item.id}</p>
-        <p>${item.description}</p>
-        <p><strong>Precio:</strong> $${item.price}</p>
-        <p><strong>Tamaño:</strong> ${item.size}</p>
-        <p><strong>Origen:</strong> ${item.origen}</p>
+        <h2>${flor.name}</h2>
+        <img src="${item.image}" alt="${flor.name}" class="flor-img">
+        <p><strong>$${flor.price}</strong></p>
     `;
-    
-    // Insertar el elemento en el contenedor
+
+    // Evento click en la imagen
+    card.querySelector("img").addEventListener("click", () => {
+        openModal(flor, item.image);
+    });
+
     catalogContainer.appendChild(card);
 }
+
+function openModal(flor, image) {
+
+    document.getElementById("modal-name").textContent = flor.name;
+    document.getElementById("modal-img").src = image;
+    document.getElementById("modal-id").textContent = "ID: " + flor.id;
+    document.getElementById("modal-price").textContent = flor.price;
+    document.getElementById("modal-color").textContent = flor.color;
+    document.getElementById("modal-size").textContent = flor.size;
+    document.getElementById("modal-origin").textContent = flor.origin;
+    document.getElementById("modal-description").textContent = flor.description;
+
+    modal.classList.remove("hidden");
+}
+
+// Cerrar modal si hacen click afuera
+modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+        modal.classList.add("hidden");
+    }
+});
+
+
+
 
 // Inicializar el catálogo cuando cargue la página
 loadCatalog();
