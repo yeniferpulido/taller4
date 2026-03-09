@@ -1,45 +1,12 @@
 [
   {
-    "name": "Clavel",
-    "description": "Delicado y encantador, el clavel rosado claro destaca por sus pétalos suaves y textura ondulada. Su tono sutil transmite ternura y elegancia, convirtiéndolo en la elección perfecta para arreglos románticos y detalles llenos de significado.",
-    "id": 1,
-    "image": "https://images.pexels.com/photos/17557184/pexels-photo-17557184.jpeg",
-    "color": "Rosado",
-    "price": 10000,
-    "size": "Mediana",
-    "origin": "Colombia",
-    "stock": 30
-  },
-  {
-    "name": "Orquidea",
-    "description": "Elegante y luminosa, esta orquídea de pétalos mayormente blancos con delicados matices rosados evoca pureza y sofisticación. Su contraste sutil realza su belleza natural, ideal para espacios que buscan un toque refinado y armonioso.",
-    "id": 2,
-    "image": "https://images.pexels.com/photos/3888594/pexels-photo-3888594.jpeg",
-    "color": "Blanca",
-    "price": 70000,
-    "size": "Pequeña",
-    "origin": "Colombia",
-    "stock": 10
-  },
-  {
-    "name": "Flor de loto",
-    "description": "Majestuosa y serena, la flor de loto destaca por sus pétalos armoniosos y su porte elegante sobre el agua. Símbolo de pureza y renovación, aporta un aire de calma y sofisticación a cualquier composición floral.",
-    "id": 3,
-    "image": "https://images.pexels.com/photos/1179863/pexels-photo-1179863.jpeg",
-    "color": "Blanca",
-    "price": 70000,
-    "size": "Mediana",
-    "origin": "China",
-    "stock": 15
-  },
-  {
     "name": "Lirio",
     "description": "Sofisticado y luminoso, el lirio blanco deslumbra con sus pétalos amplios y fragancia delicada. Su presencia transmite pureza y elegancia atemporal, ideal para arreglos clásicos y ambientes llenos de serenidad.",
     "id": 4,
     "image": "https://images.pexels.com/photos/56905/pexels-photo-56905.jpeg",
     "color": "Blanca",
     "price": 35000,
-    "size": "Pequeña",
+    "size": "pequeña",
     "origin": "Colombia",
     "stock": 40
   },
@@ -61,9 +28,9 @@
     "image": "https://images.pexels.com/photos/20843052/pexels-photo-20843052.jpeg",
     "color": "Amarillo",
     "price": 50000,
-    "size": "Grande",
+    "size": "Mediana",
     "origin": "Colombia",
-    "stock": 57
+    "stock": 53
   },
   {
     "name": "Tulipan",
@@ -83,7 +50,7 @@
     "image": "https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg",
     "color": "Rosado",
     "price": 200000,
-    "size": "pequeña",
+    "size": "Mediana",
     "origin": "Japón",
     "stock": 20
   },
@@ -94,7 +61,7 @@
     "image": "https://images.pexels.com/photos/18702109/pexels-photo-18702109.jpeg",
     "color": "Salmón",
     "price": 30000,
-    "size": "Grande",
+    "size": "Mediana",
     "origin": "Japón",
     "stock": 36
   },
@@ -105,7 +72,7 @@
     "image": "https://images.pexels.com/photos/35646/pexels-photo.jpg",
     "color": "Blanca",
     "price": 20000,
-    "size": "Grande",
+    "size": "pequeña",
     "origin": "Mexico",
     "stock": 29
   }

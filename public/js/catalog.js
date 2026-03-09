@@ -81,11 +81,12 @@ function openModal(flor, image) {
     modal.classList.remove("hidden");
 }
 
-// Cerrar modal si hacen click afuera
-modal.addEventListener("click", (e) => {
-    if (e.target === modal) {
-        modal.classList.add("hidden");
-    }
+// Seleccionar la X
+const closeBtn = document.getElementById("close-modal");
+
+// Evento click en la X
+closeBtn.addEventListener("click", () => {
+    modal.classList.add("hidden");
 });
 
 

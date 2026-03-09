@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscar</title>
     <link rel="stylesheet" href="./css/buscar.css">
+    <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/catalog.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 </head>
 <body>
     <nav class="navbar">
         <ul>
+            <li><img src="./css/bloomlogo.jpg" alt="BloomLogo" class="bloomlogo"></li>
             <li><a href="index.html">Gestión</a></li>
             <li><a href="catalog.html">Catálogo</a></li>
-            <li><a href="buscar.html">Buscar</a></li>
+            <li><a href="buscar.html">Búsqueda</a></li>
+            <li><a href="compras.html">Compras</a></li>
         </ul>
     </nav>
 
@@ -38,20 +45,20 @@
 
     <div id="resultsContainer" class="catalog-grid"></div>
 
-    <div id="flor-modal" class="modal hidden">
-    <div class="modal-content">
-        <h2 id="modal-name"></h2>
-        <img id="modal-img" src="" alt="flor grande">
-        <p id="modal-id"></p>
+     <div id="flor-modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2 id="modal-name"></h2>
+                <img id="modal-img" src="" alt="flor grande">
+                <p id="modal-id" class="flor-id"></p>
 
-        <div class="modal-info">
-            <p><strong>Precio:</strong> <span id="modal-price"></span></p>
-            <p><strong>Color:</strong> <span id="modal-color"></span></p>
-            <p><strong>Tamaño:</strong> <span id="modal-size"></span></p>
-            <p><strong>Origen:</strong> <span id="modal-origen"></span></p>
-            <p><strong>Descripción:</strong> <span id="modal-description"></span></p>
-        </div>
-    </div>
+                <div class="modal-info">
+                    <p><strong>Precio: $</strong> <span id="modal-price"></span></p>
+                    <p><strong>Color:</strong> <span id="modal-color"></span></p>
+                    <p><strong>Tamaño:</strong> <span id="modal-size"></span></p>
+                    <p><strong>Origen:</strong> <span id="modal-origin"></span></p>
+                    <p><strong>Descripción:</strong> <span id="modal-description"></span></p>
+                </div>
     </div>
 
     <script type="module" src="./js/buscar.js"></script>

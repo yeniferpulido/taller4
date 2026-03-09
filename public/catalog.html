@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo</title>
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/catalog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <ul>
+            <li><img src="./css/bloomlogo.jpg" alt="BloomLogo" class="bloomlogo"></li>
             <li><a href="index.html">Gestión</a></li>
             <li><a href="catalog.html">Catálogo</a></li>
-            <li><a href="buscar.html">Buscar</a></li>
+            <li><a href="buscar.html">Búsqueda</a></li>
+            <li><a href="compras.html">Compras</a></li>
         </ul>
     </nav>
 
-    <h1>Catálogo de Items</h1>
+    <h1>Catálogo de Flores</h1>
 
     <div id="catalogContainer" class="catalog-grid">
         <!-- Aquí se van a renderizar las tarjetas con los items -->
@@ -27,7 +31,7 @@
 
      <div id="flor-modal" class="modal hidden">
             <div class="modal-content">
-                <!--<span id="close-modal">&times;</span>-->
+                <span id="close-modal" class="close">&times;</span>
                 <h2 id="modal-name"></h2>
                 <img id="modal-img" src="" alt="flor grande">
                 <p id="modal-id" class="flor-id"></p>

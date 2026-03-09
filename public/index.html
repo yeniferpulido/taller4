@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <ul>
+            <li><img src="./css/bloomlogo.jpg" alt="BloomLogo" class="bloomlogo"></li>
             <li><a href="index.html">Gestión</a></li>
             <li><a href="catalog.html">Catálogo</a></li>
-            <li><a href="buscar.html">Buscar</a></li>
+            <li><a href="buscar.html">Búsqueda</a></li>
+            <li><a href="compras.html">Compras</a></li>
         </ul>
     </nav>
-
-    <h1>Floristeria LYSS</h1>
-    <h2>Gestión de Items</h2>
-
+    <br><br><br>
+    <div class="gestion-container">
+    <h1>Gestor de Flores</h1>
     <form id="itemForm">
-        <input type="text" id="name" placeholder="Nombre del item" required>
+        <input type="text" id="name" placeholder="Nombre" required>
         <input type="text" id="description" placeholder="Descripción" required>
         <input type="text" id="image" placeholder="Imagen (URL)" required>
         <input type="text" id="color" placeholder="Color" required>
@@ -29,7 +29,7 @@
 
         <!-- Select para tamaño -->
         <select id="size" required>
-            <option value="">Selecciona un tamaño</option>
+            <option value="">Tamaño</option>
             <option value="pequeña">Pequeña</option>
             <option value="mediana">Mediana</option>
             <option value="grande">Grande</option>
@@ -40,20 +40,21 @@
 
         <button type="submit" id="submitBtn">Agregar</button>
     </form>
+    </div>
 
     <table>
         <thead>
             <tr>
-                <th>ID</th>
-                <th>Nombre</th>
-                <th>Descripción</th>
-                <th>Imagen</th>
-                <th>Color</th>
-                <th>Precio</th>
-                <th>Tamaño</th>
-                <th>Origen</th>
-                <th>Cantidad</th>
-                <th>Acciones</th>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Imagen</th>
+            <th>Color</th>
+            <th>Precio</th>
+            <th>Tamaño</th>
+            <th>Origen</th>
+            <th>Cantidad</th>
+            <th>Acciones</th>
             </tr>
         </thead>
         <tbody id="itemsTable"></tbody>
