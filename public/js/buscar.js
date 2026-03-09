@@ -3,6 +3,7 @@ import Flor from "./ui/flor.js";
 const API_URL = "/api/items";
 
 const modal = document.getElementById("flor-modal");
+const closeModal = document.getElementById("close-modal");
 
 const categorySelect = document.getElementById("categorySelect");
 const valueSelect = document.getElementById("valueSelect");
@@ -115,7 +116,7 @@ function openModal(flor, image) {
     document.getElementById("modal-price").textContent = flor.price;
     document.getElementById("modal-color").textContent = flor.color;
     document.getElementById("modal-size").textContent = flor.size;
-    document.getElementById("modal-origen").textContent = flor.origin;
+    document.getElementById("modal-origin").textContent = flor.origin;
     document.getElementById("modal-description").textContent = flor.description;
 
     modal.classList.remove("hidden");
@@ -126,4 +127,9 @@ modal.addEventListener("click", (e) => {
     if (e.target === modal) {
         modal.classList.add("hidden");
     }
+});
+
+//Cerrar modal al hacer click en la X
+closeModal.addEventListener("click", () => {
+    modal.classList.add("hidden");
 });
